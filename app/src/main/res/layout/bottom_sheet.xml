@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:cardCornerRadius="20dp"
+    android:background="@drawable/sheet_back">
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical">
+      <RelativeLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content">
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="My Places"
+              android:textStyle="bold"
+              android:textSize="20sp"
+              android:layout_margin="10dp"/>
+
+          <ImageButton
+              android:id="@+id/ibCancel"
+              android:layout_width="45dp"
+              android:layout_height="45dp"
+              android:layout_alignParentEnd="true"
+              android:layout_marginTop="15dp"
+              android:layout_marginEnd="10dp"
+              android:background="@null"
+              android:scaleType="centerCrop"
+              android:src="@drawable/ic_outline_cancel_24"
+              tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+      </RelativeLayout>
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal">
+           <Button
+               android:id="@+id/popular"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               android:layout_weight="1"
+               android:background="@drawable/but_back"
+               android:layout_margin="10dp"
+               android:textSize="12sp"
+               android:backgroundTint="@color/white"
+               android:textColor="@color/black"
+               android:text="Popular"/>
+           <Button
+               android:id="@+id/fav"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               android:layout_weight="1"
+               android:background="@drawable/but_back"
+               android:textSize="12sp"
+               android:layout_margin="10dp"
+               android:backgroundTint="@color/white"
+               android:textColor="@color/black"
+               android:text="Favourites"/>
+           <Button
+               android:id="@+id/visited"
+               android:background="@drawable/but_back"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               android:layout_weight="1"
+               android:layout_margin="10dp"
+               android:textSize="12sp"
+               android:backgroundTint="@color/white"
+               android:textColor="@color/black"
+               android:text="Visited"/>
+
+       </LinearLayout>
+       <androidx.recyclerview.widget.RecyclerView
+           android:id="@+id/recycle"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+           tools:listitem="@layout/recycler_resource"/>
+   </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

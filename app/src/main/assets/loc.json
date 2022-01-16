@@ -1,0 +1,68 @@
+{
+    "loc": [
+        {
+            "name": "Gate way of india",
+            "img": "https://tse2.mm.bing.net/th?id=OIP.c6OKHQBt65OZFZQIT5L4zgHaEo&pid=Api&P=0&w=253&h=159",
+            "place": "Tourist place",
+            "lat": "18.922020",
+            "lot": "72.834632"
+
+        },
+        {
+            "name": "Chhatrapati shivaji terminus",
+            "img": "https://tse4.mm.bing.net/th?id=OIP.0GfryUxDWXqaxlr-M2LLtgHaE6&pid=Api&P=0&w=253&h=169",
+            "place": "Station",
+            "lat": "18.926720",
+            "lot": "72.832505"
+
+        },
+        {
+            "name": "Rani Laxmi Bai Park",
+            "img": "https://tse3.mm.bing.net/th?id=OIP.pppd6QMU-fV4ItazkKQQ-gHaE8&pid=Api&P=0&w=255&h=171",
+            "place": "Park",
+            "lat": "18.910316",
+            "lot": "72.810382"
+
+        },
+        {
+            "name": "Haji Ali Dargah",
+            "img": "https://tse1.mm.bing.net/th?id=OIP.KTQfciU8HZ0GFfE5feDMQQHaEn&pid=Api&P=0&w=267&h=167",
+            "place": "Masjid",
+            "lat": "18.982941",
+            "lot": "72.809031"
+
+        },
+        {
+            "name": "Shri Siddhi Vinayak Ganapati Mandir",
+            "img": "https://tse4.mm.bing.net/th?id=OIP.itJJaYIQrWJj-cqQKQaVRQHaFj&pid=Api&P=0&w=227&h=171",
+            "place": "Mandir",
+            "lat": "19.016819",
+            "lot": "72.830246"
+
+        },
+        {
+            "name": "Mount Mary Church Steps",
+            "img": "https://tse2.mm.bing.net/th?id=OIP.oYN-mrZ-Lau2D7i5kS8ItgHaFj&pid=Api&P=0&w=225&h=170",
+            "place": "Church",
+            "lat": "19.046573",
+            "lot": "72.822395"
+
+        },
+        {
+            "name": "Chhatrapati Shivaji Maharaj International Airport",
+            "img": "https://tse3.mm.bing.net/th?id=OIP.LJH3kK4y-yhoW2k_GT2mJAHaEK&pid=Api&P=0&w=310&h=175",
+            "place": "Airport",
+            "lat": "19.090402",
+            "lot": "72.861078"
+
+        },
+        {
+            "name": "Juhu beach",
+            "img": "https://tse4.mm.bing.net/th?id=OIP.NKUNxaDM3DPg8KrxyDvbsAHaEK&pid=Api&P=0&w=297&h=168",
+            "place": "Beach",
+            "lat": "19.097486",
+            "lot": "72.825966"
+
+        }
+    ]
+}
