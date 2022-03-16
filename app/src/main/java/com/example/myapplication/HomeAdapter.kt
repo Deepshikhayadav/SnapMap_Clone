@@ -23,8 +23,8 @@ class HomeAdapter(private val list: List<HashMap<String, String>>,private val my
 
         holder.name.text= list[position]["name"].toString()
         holder.desc.text= list[position]["place"].toString()
-        Log.i("---->",list[position]["lot"].toString())
-        Log.i("---->",list[position]["lat"].toString())
+      //  Log.i("---->",list[position]["lot"].toString())
+     //   Log.i("---->",list[position]["lat"].toString())
 
         val name=list[position]["name"].toString()
         val place=list[position]["place"].toString()
